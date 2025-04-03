@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	string op = ""; int num1 = 0, num2 = 0;
+	cout << "enter the first number : ";
+	cin >> num1;
+	cout << "enter your second number : ";
+	cin >> num2;
+	cout << "choose op from these : + | - | * | / : ";
+	cin >> op;
+	if (op == "+") {
+		cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
+	}
+	else if (op == "-") {
+		cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
+	}
+	else if (op == "*") {
+		cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
+	}
+	else if (op == "/") {
+		if (num2 == 0) {
+			cout << "MATH ERROR" << endl;
+		}
+		else {
+			cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
+		}
+	}
+}
