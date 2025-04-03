@@ -1,1 +1,6 @@
-# Projects
+- 👋 Hi, I’m @SyinXx
+- 👀 I’m interested in gamesdev, AI feild too.
+- 🌱 I’m currently learning C++ as a student in CS.
+- 💞️ I’m looking to collaborate on my projects and willing to know other people in this community.
+- 😄 Pronouns: he/him.
+- ⚡ Fun fact: Trying to get better XD.
